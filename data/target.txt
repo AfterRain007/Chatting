@@ -1,6 +1,6 @@
 Replace this file with your own data! In the mean time, here's a dummy data so you know it's working. Happy Coding!!
 
-04/15/2022, 10:05 - John Doe: Hey
+04/15/2022, 10:05 - John Doe: Waddup fuck face!
 04/15/2022, 10:07 - Jane Smith: Hi there!
 04/15/2022, 10:10 - John Doe: Did you see the latest movie?
 04/15/2022, 10:12 - Jane Smith: No, not yet. Is it good?
@@ -9,15 +9,14 @@ Replace this file with your own data! In the mean time, here's a dummy data so y
 04/15/2022, 15:30 - Bob Johnson: <Media omitted>
 04/15/2022, 16:00 - Alice: <Media omitted>
 04/15/2022, 18:45 - Carol: <Media omitted>
-04/15/2022, 19:30 - Bob Johnson: How was your day, Alice?
+04/15/2022, 19:30 - Bob Johnson: How was your day, ass face?
 04/15/2022, 19:35 - Alice: Pretty good! How about yours?
 04/15/2022, 19:40 - Bob Johnson: Not bad, just busy with work.
 04/15/2022, 20:15 - Carol: <Media omitted>
 04/16/2022, 09:20 - John Doe: Anyone up for coffee this afternoon?
 04/16/2022, 09:25 - Jane Smith: Count me in!
-04/16/2022, 09:30 - Bob Johnson: Sure, I could use a coffee break.
+04/16/2022, 09:30 - Bob Johnson: Fuck, sorry I forgot I have a meeting today
 04/16/2022, 14:00 - Carol: <Media omitted>
 04/16/2022, 15:45 - Alice: <Media omitted>
 04/16/2022, 17:30 - John Doe: Great coffee, guys!
 04/16/2022, 17:35 - Jane Smith: We should do this more often.
-04/16/2022, 18:00 - Bob Johnson: Definitely!
