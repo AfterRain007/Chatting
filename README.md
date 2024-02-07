@@ -4,10 +4,10 @@ Are you tired of debating with your S.O. about who took longer to reply back? Or
 Well worry no more! Introducing Chatting!!!
 
 # Project Structure
-* Data: Containing all the data used
+* data: Containing all the data used
 * res: Containing the output (result) of the program
 * util: Containing all the coding utilities used in the program
-* runIt.py: Running the program
+* run.py: Running the program
 
 # Usage
 1. Replace target.txt located in Data directory with your whatsapp chat (with the same file name "target.txt")
