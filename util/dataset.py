@@ -6,8 +6,24 @@ def readFile(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
-    # Extract data from each line and create a list of tuples
-    date_format = "%d/%m/%Y %H:%M"
+    # To Take which date format your data has.
+    ## If you live in a sane country don't worry this won't take long
+    ### Unless you have year in the middle as a format, shame on you
+    date_format_list = ["%d/%m/%Y %H:%M", "%m/%d/%Y %H:%M", "%Y/%d/%m %H:%M",
+                        "%Y/%m/%d %H:%M", "%d/%Y/%m %H:%M", "%m/%Y/%d %H:%M"]
+
+    for x in date_format_list:
+      for line in lines[:5]:
+        try:
+          parts = line.split(' - ')
+          date_str, time_str = parts[0].split(', ')
+          (datetime.strptime(date_str + " " + time_str, x))
+          date_format = x
+          break
+        except:
+          continue
+          
+    # Extract data from each line and create a list
     data = []
     for line in lines:
         try:

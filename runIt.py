@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import time
 
 def main():
-    print("(See github.com/AfterRain007/Chatting ReadME file for language support!)")
+    print("\n(See github.com/AfterRain007/Chatting ReadME file for language support!)")
     lan = input("Language of Your Data: ")
     df = readFile('./data/target.txt')
     badWords = readBadWord(lan)
@@ -17,16 +17,16 @@ def main():
 
     df = PreprocessingText(df)
     df = df[['name', 'replyTime']].groupby('name').mean()
-    df.to_excel("./res/resultTime.xlsx")
+    df.rename(columns = {'replyTime':"Average Reply Time"}, inplace = True)
+    df.to_csv("./res/resultTime.csv")
     
     plt.bar(badCounts.index.get_level_values(0), badCounts.values)
     plt.tight_layout()
     plt.savefig('./res/resultBad.png')
-    badCounts.to_csv('./res/resultTime.csv')
     print("It's done! Self Destructing in")
-
-    for x in np.arange(5):
-        print(5-x)
+    time.sleep(0.5)
+    for x in np.arange(3):
+        print(3-x)
         time.sleep(1)
 
 if __name__ == "__main__":

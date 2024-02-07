@@ -3,7 +3,7 @@ import datetime as datetime
 import numpy as np
 
 def PreprocessingText(df):
-    df.loc[:, 'replyTime'] = df.index.diff()
+    df.loc[:, 'replyTime'] = df.index.to_series().diff()
     df.loc[:, 'day'] = df.index.day
     
     df = df[df['replyTime'] < '12:00:00']
