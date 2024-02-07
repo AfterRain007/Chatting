@@ -7,12 +7,14 @@ Well worry no more! Introducing Chatting!!!
 * data: Containing all the data used
 * res: Containing the output (result) of the program
 * util: Containing all the coding utilities used in the program
-* run.py: Running the program
+* chat.py: Running the program
 
 # Usage
 1. Replace target.txt located in Data directory with your whatsapp chat (with the same file name "target.txt")
-2. Run runIt.py
-3. Profit💸
+2. Open your command prompt
+3. Go to where you saved the github folder
+4. Run python chat.py
+5. Profit💸
 
 # Language Support
 * 'en' = English (77 words)
