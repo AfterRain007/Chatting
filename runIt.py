@@ -22,7 +22,7 @@ def main():
     plt.bar(badCounts.index.get_level_values(0), badCounts.values)
     plt.tight_layout()
     plt.savefig('./res/resultBad.png')
-    badCounts.to_excel('./res/resultTime.xlsx')
+    badCounts.to_csv('./res/resultTime.csv')
     print("It's done! Self Destructing in")
 
     for x in np.arange(5):
