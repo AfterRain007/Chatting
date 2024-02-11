@@ -47,8 +47,6 @@ Well worry no more! Introducing Chatting!!!
 # Credit
 Credit where credit's due, thank you for all!
 
-List of Indonesian BadWords<br>
-https://github.com/drizki/indonesian-badwords
+[List of Indonesian BadWords](https://github.com/drizki/indonesian-badwords) by Drizki
 <br><br>
-List of BadWords from: <br>
-https://github.com/tural-ali/encycloDB
+[List of BadWords from](https://github.com/tural-ali/encycloDB) by Tural Ali
